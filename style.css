@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@900&family=Lobster&family=Roboto:ital,wght@0,400;1,700&display=swap');
+*
+{
+    
+    padding:0;
+    margin:0;
+    /* background-color:rgb(14, 13, 13); */
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: black;
+
+    color: white;
+    
+
+}
+.firstpart
+{
+    position: relative;
+   
+    opacity: 1;
+    
+    height:100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.img{
+    position: absolute;
+   
+    opacity: 0.4;
+}
+.content{
+    position: relative;
+    
+    
+}
+.top{
+    position: relative;
+    z-index: 1;
+    height: 90px; 
+    display: flex;
+   
+}
+
+.top img{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top:50%;
+    left:18%; 
+    transform: translate(-50%,-50%);
+    
+}
+
+#lan{
+    position: absolute;
+    height: 40px;
+width: 170px;
+font-size: 20px;
+border-radius: 7px;
+border: 1px solid white;
+
+right: 15%;
+top: 50%;
+transform: translate(-50%,-50%);
+background: transparent;
+font-weight: bold; 
+
+
+}
+.button1{
+
+    position: absolute;
+    font-weight: bold;
+    background-color:rgb(190, 13, 13) ;
+
+height: 40px;
+width: 100px;
+font-size: 20px;
+border-radius: 7px;
+border: 0;
+right: 5%;
+top: 50%;
+transform: translate(-50%,-50%);
+}
+.center
+{
+position: absolute;
+display: inline;
+font-family: 'Inter', sans-serif;
+text-align: center;
+line-height: 60px;
+margin-top: 12%;
+margin-left: 15%;
+
+} 
+.center h1{
+    font-size: 50px;
+    font: weight 900;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0px;
+}
+.center h3{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.center p{
+    font-size: 20px;
+}
+.center input{
+    background: transparent;
+    border: 2px solid wheat;
+    height: 60px;
+    width: 500px;
+    border-radius: 7px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+    
+}
+.center input::placeholder{
+    color: white;
+}
+
+
+.center button{
+    background-color:rgb(190, 13, 13) ;
+    height: 65px;
+    width: 250px ;
+    margin-left: 10px;
+    border-radius: 7px;
+    border: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.media {
+    /* position: relative; */
+    border-top: 10px rgb(44, 43, 43) solid;
+    
+    
+}
+
+.media .tv,.mobile,.lap,.child{
+    border-bottom: 10px rgb(44, 43, 43) solid;
+    height: 90vh;
+
+   
+    
+}
+.tv,.lap, .mobile,.child{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   font-size: 30px;
+    
+}
+
+
+.tv div, .lap div
+{
+/* position: absolute;
+left: 10%;
+margin-top: 15%;
+transform: translate(-50,-50);
+    font-size: 25px;*/
+
+width:50%;
+margin-left: 50px;
+
+/* width: 40%; */
+
+}
+
+.tv img,.lap img{
+    float:right;
+    width: 50%;
+    margin-right: 50px;
+    /* position: absolute;
+    left: 900px;
+    margin-top: 100px;
+    transform: translate(-50,-50); */
+}
+ .mobile div, .child div{
+    /* position: absolute;
+left: 50%;
+margin-top: 10%;
+transform: translate(-50,-50); */
+/* font-size: 25px; */
+width: 50%;
+margin-right: 50px;
+/* width: 40%; */
+
+}
+.mobile img,.child img{
+    /* position: absolute;
+    left: 10%;
+    margin-top: 60px;
+    transform: translate(-50,-50); */
+    float: left;
+    width:50%;
+    margin-left: 50px;
+        
+} 
+.media .Questions{
+    /* position: relative; */
+    border-bottom: 10px rgb(44, 43, 43) solid;
+    height: 185vh;
+    width: 100%;
+   
+}
+
+.Questions h1{
+    /* position: absolute; */
+    
+    font-size: 60px;
+    font: weight 900;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0px;
+    break-after: 10px;
+    margin-top: 100px;
+    text-align: center;
+    /* transform: translate(-50,-50); */
+    
+   
+}
+.Questions div button span
+{
+    width: 10%;
+   
+}
+
+.Questions div button p{
+    width: 90%;
+}
+
+.Questions div button 
+{
+     /* position: absolute; */
+    display: flex;
+    margin-left: 10%;
+    height: 100px;
+    width: 80%;
+    margin-bottom: 2px;
+    background-color: rgb(44, 42, 42);
+    font-size: 30px;
+    text-align: left;
+    align-items: center;
+    padding-left: 20px;
+    
+
+} 
+
+.Questions div{
+    margin-top: 30px;
+}
+.Que-end{
+    /* position: absolute; */
+/* display: inline; */
+font-family: 'Inter', sans-serif;
+text-align: center;
+
+/* line-height: 60px; */
+/* bottom:  15%;
+transform: translate(-50,-50);
+left: 18%; */
+}
+.Que-end p{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+}
+.Que-end input{
+    position: absolute;
+    background: transparent;
+    border: 2px solid wheat;
+    height: 60px;
+    width: 500px;
+    border-radius: 7px;
+    left: 50px;
+    transform: translate(-50,-50);
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    /* margin-left:10px; */
+    
+}
+.Que-end input::placeholder{
+    color: white;
+    padding-left: 20px;
+}
+
+
+ .Questions .Que-end button
+{
+    position: absolute;
+    background-color:rgb(190, 13, 13) ;
+    height: 65px;
+    width: 250px ; 
+    border-radius: 5px;
+    border: 0;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 25px;
+    /* margin-top: 20px; */
+    right: 20px;
+   transform: translate(-50,-50);
+}
+.footer{
+    position: relative;
+    height: 50vh;
+   
+    
+    font-size: 18px;
+    top: 100px;
+    
+}
+.footer p{
+    margin-left: 16%;
+}
+.list div ul li{
+
+    /* position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ; */
+    list-style-type: none;  
+    line-height: 50px; 
+    margin-left: 0;
+    padding: 0; 
+
+}
+ .list {
+    
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+} 
+.footer select{
+    height: 40px;
+    width: 170px;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-left: 16%;
+    border: 1px solid white;
+    background-color: transparent;
+}
